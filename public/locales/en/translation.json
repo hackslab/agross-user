@@ -1,0 +1,197 @@
+{
+  "loading": "Loading...",
+  "error": "An error occurred",
+  "viewAll": "View All",
+  "productCount": "{{count}} product",
+  "productCount_plural": "{{count}} products",
+  "home": "Home",
+  "catalog": "Catalog",
+  "navbar": {
+    "allProducts": "All Products",
+    "about": "About Company",
+    "currencyRate": "Currency Rate:",
+    "currencyBuy": "Buy:",
+    "currencySell": "Sell:",
+    "currencyName": "so'm",
+    "searchPlaceholder": "Search for products",
+    "clearSearch": "Clear search",
+    "catalog": "Catalog",
+    "categoryError": "Error loading categories",
+    "phone": "📞 +998 71 502 63 63",
+    "logoAlt": "Agross Logo",
+    "searchAriaLabel": "Search for products",
+    "clearSearchAriaLabel": "Clear search"
+  },
+  "footer": {
+    "forCustomers": "For Customers",
+    "about": "About Company",
+    "contacts": "Contacts",
+    "workingHours": "Working Hours: 9:00 - 18:00",
+    "address": "Eshonguzar, N.Xojiboev 1A",
+    "showroom": "Showroom",
+    "warehouse": "Warehouse",
+    "manager": "Manager",
+    "followUs": "Follow Us",
+    "socialMedia": "Social Media",
+    "telegramHandle": "Telegram: @PalmaPlast_777"
+  },
+  "contact": {
+    "manager1": "Turabekov Baxtiyor",
+    "manager2": "Sobirov Yusufjon",
+    "callCenter": "+998 71 502 63 63",
+    "showroomPhone": "+998 33 302 63 63",
+    "warehousePhone": "+998 97 200 63 63",
+    "manager1Phone": "+998 97 400 87 27",
+    "manager2Phone": "+998 97 441 48 87"
+  },
+  "about": {
+    "breadcrumb": "About Us",
+    "heroTagline": "Essential resources for modern agriculture and farming",
+    "introTitle": "About Us",
+    "introP1": "<strong>Agross</strong> is a brand that supplies essential resources for modern agriculture and farming. Our main activity is the production of greenhouse film and providing everything necessary for the full operation of a greenhouse.",
+    "introP2": "We offer comprehensive solutions, covering everything from greenhouse construction to the necessary equipment.",
+    "experienceTitle": "Our Experience",
+    "experienceText": "With years of experience, we started our operations in 2004. Since 2016, we have been working in partnership with Korea, Russia, Iran, and China.",
+    "productsTitle": "Our Products",
+    "product1": "Polyethylene Film",
+    "product2": "Clips",
+    "product3": "Fittings",
+    "product4": "Shade Nets",
+    "product5": "PET and PP Tapes",
+    "product6": "Cassettes, Polyethylene Cups",
+    "product7": "Radiators",
+    "product8": "Ventilators and Corrugated Pipes",
+    "product9": "Agro-fabric and Blankets",
+    "product10": "Drip Irrigation",
+    "product11": "Feed and Seeds",
+    "product12": "Agricultural Equipment",
+    "promiseTitle": "Our Promise",
+    "promiseCardTitle": "Safety and Life",
+    "promiseCardText": "Our core brand promise is safety and life. This commitment guides all our activities and is reflected in every product we offer.",
+    "philosophyTitle": "Our Philosophy",
+    "philosophyIntro": "Our philosophy is based on two key concepts essential for successful farming:",
+    "protectionTitle": "Protection and Safety",
+    "protectionText": "We provide reliable structures. The greenhouse form we support signifies protection and safety. Every product is designed to protect your crops and investment.",
+    "protectionFeature1": "Durable and resilient materials",
+    "protectionFeature2": "Resistance to weather conditions",
+    "protectionFeature3": "Long-term protection guarantee",
+    "productivityTitle": "Productivity and Vitality",
+    "productivityText": "We promote growth and yield. The leaf is our symbol of productivity and vitality. Every solution is created to produce maximum yield and quality products.",
+    "productivityFeature1": "Optimal growing conditions",
+    "productivityFeature2": "High-quality harvest guarantee",
+    "productivityFeature3": "Efficient resource use",
+    "balanceNote": "These principles are carefully balanced to visually express our brand promise.",
+    "characterTitle": "Our Character",
+    "characterDescription": "The core character of the Agross brand is described as <strong>kind and creative</strong>. We strive to provide modern and minimalistic solutions tailored to the needs and direction of the greenhouse industry.",
+    "traitKind": "Kind",
+    "traitCreative": "Creative",
+    "traitModern": "Modern",
+    "audienceTitle": "Our Clients",
+    "audienceIntro": "Agross serves a broad market segment, including low, middle, and upper-middle-class customers. Among our valued clients are:",
+    "audienceEntrepreneursTitle": "Entrepreneurs",
+    "audienceEntrepreneursText": "Complete solutions for entrepreneurs starting a new business and expanding their operations.",
+    "audienceFarmersTitle": "Farmers",
+    "audienceFarmersText": "Convenient and high-quality products for farmers wishing to build a greenhouse on their land plots.",
+    "audienceLargeScaleTitle": "Large-Scale Farmers",
+    "audienceLargeScaleText": "Professional-grade solutions for farmers engaged in large-scale cultivation.",
+    "ctaTitle": "Explore Our Products",
+    "ctaText": "Discover all the products and services you need for your greenhouse",
+    "ctaCatalog": "View Catalog",
+    "ctaHome": "Back to Home"
+  },
+  "allCategories": {
+    "breadcrumb": "All Categories",
+    "title": "All Categories",
+    "subtitle": "Select a category to view products",
+    "statCategories": "Categories",
+    "statProducts": "Products",
+    "noDescription": "No description available for this category.",
+    "allCatName": "All Categories",
+    "allCatDescription": "The complete catalog of all available products",
+    "view": "View"
+  },
+  "catalog": {
+    "title": "Catalog",
+    "allCategories": "All Categories"
+  },
+  "categories": {
+    "allProducts": "All Products",
+    "resetFilters": "Reset Filters",
+    "categories": "Categories",
+    "subcategories": "Subcategories",
+    "all": "All",
+    "country": "Country of Origin",
+    "allCountries": "All countries",
+    "searchResults": "Search results for: \"{{query}}\"",
+    "resultsFound": "{{count}} product found",
+    "resultsFound_plural": "{{count}} products found",
+
+    "noResults": " - try changing your query",
+    "filters": "Filters",
+    "sort": "Sort by:",
+    "sortPopular": "Popularity",
+    "sortPriceLow": "Price: Low to High",
+    "sortPriceHigh": "Price: High to Low",
+    "sortRating": "Rating",
+    "apply": "Apply",
+    "error": "An error occurred while loading data"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "message": "Sorry, the page you are looking for does not exist or has been moved.<br/>Nothing has grown here... but our products do!",
+    "goHome": "Back to Home",
+    "viewCatalog": "View Catalog"
+  },
+  "popularProducts": {
+    "title": "Popular Products"
+  },
+  "productDetail": {
+    "available": "In Stock",
+    "notAvailable": "Out of Stock",
+    "about": "About the Product",
+    "features": "Features",
+    "category": "Category",
+    "subcategory": "Subcategory",
+    "country": "Country",
+    "type": "Type",
+    "structure": "Structure",
+    "unit": "Unit",
+    "price": "Price",
+    "related": "Related Products"
+  },
+  "whyUs": {
+    "title": "Why AGROSS?",
+    "features": [
+      {
+        "title": "Safety and Life",
+        "description": "Our products ensure the protection and productivity of your greenhouses."
+      },
+      {
+        "title": "Complete Set",
+        "description": "From construction to equipment — everything for your greenhouse."
+      },
+      {
+        "title": "Fast Delivery",
+        "description": "Express delivery throughout Uzbekistan."
+      },
+      {
+        "title": "Quality Guarantee",
+        "description": "All materials meet international standards."
+      }
+    ]
+  },
+  "floatingContact": {
+    "telegram": "Telegram",
+    "whatsapp": "WhatsApp",
+    "phone": "+998 71 502 63 63",
+    "ariaLabel": "Contact Us"
+  },
+  "languageSwitcher": {
+    "title": "Select Language"
+  },
+  "altTexts": {
+    "carouselSlide": "Carousel slide {{index}}",
+    "productImage": "Image of {{productName}}",
+    "productPlaceholder": "Product placeholder"
+  }
+}

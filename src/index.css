@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import "./components/shared.css";
+
+:root {
+  /* Agross Brand Colors */
+  --brand-primary: #045e52;
+  --brand-secondary: #d6e865;
+  --brand-bg: #fefff3;
+  --brand-text: #1a1a1a;
+  --brand-text-light: #666;
+
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light;
+  color: var(--brand-text);
+  background-color: var(--brand-bg);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  /* Prevent text size adjustment on mobile devices */
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+  /* Better tap targets on mobile */
+  -webkit-tap-highlight-color: rgba(4, 94, 82, 0.1);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  /* Better tap targets on mobile */
+  -webkit-tap-highlight-color: rgba(4, 94, 82, 0.1);
+}
+
+/* Improve touch scrolling on mobile */
+@media (max-width: 768px) {
+  body {
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Make buttons and interactive elements more touch-friendly */
+  button,
+  a,
+  input,
+  select,
+  textarea {
+    touch-action: manipulation;
+  }
+}

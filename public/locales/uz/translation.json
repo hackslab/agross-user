@@ -1,0 +1,196 @@
+{
+  "loading": "Yuklanmoqda...",
+  "error": "Xatolik yuz berdi",
+  "viewAll": "Barchasini ko'rish",
+  "productCount": "{{count}} ta mahsulot",
+  "productCount_plural": "{{count}} ta mahsulot",
+  "home": "Bosh sahifa",
+  "catalog": "Katalog",
+  "navbar": {
+    "allProducts": "Barcha mahsulotlar",
+    "about": "Kompaniya haqida",
+    "currencyRate": "Valyuta kursi:",
+    "currencyBuy": "Olish:",
+    "currencySell": "Sotish:",
+    "currencyName": "so'm",
+    "searchPlaceholder": "Mahsulotlar bo'yicha qidirish",
+    "clearSearch": "Qidiruvni tozalash",
+    "catalog": "Katalog",
+    "categoryError": "Kategoriyalarni yuklashda xatolik",
+    "phone": " 📞 +998 71 502 63 63",
+    "logoAlt": "Agross Logo",
+    "searchAriaLabel": "Search for products",
+    "clearSearchAriaLabel": "Clear search"
+  },
+  "footer": {
+    "forCustomers": "Xaridorlarga",
+    "about": "Kompaniya haqida",
+    "contacts": "Aloqa",
+    "workingHours": "Ish vaqti: 9:00 - 18:00",
+    "address": "Eshonguzar, N.Xojiboev 1A",
+    "showroom": "Savdo zali",
+    "warehouse": "Ombor",
+    "manager": "Menejer",
+    "followUs": "Ijtimoiy tarmoqlar",
+    "socialMedia": "Ijtimoiy tarmoqlar",
+    "telegramHandle": "Telegram: @PalmaPlast_777"
+  },
+  "contact": {
+    "manager1": "Turabekov Baxtiyor",
+    "manager2": "Sobirov Yusufjon",
+    "callCenter": "+998 71 502 63 63",
+    "showroomPhone": "+998 33 302 63 63",
+    "warehousePhone": "+998 97 200 63 63",
+    "manager1Phone": "+998 97 400 87 27",
+    "manager2Phone": "+998 97 441 48 87"
+  },
+  "about": {
+    "breadcrumb": "Biz haqimizda",
+    "heroTagline": "Zamonaviy qishloq xo'jaligi va ekinchilik uchun muhim resurslar",
+    "introTitle": "Biz haqimizda",
+    "introP1": "<strong>Agross</strong> zamonaviy qishloq xo'jaligi va ekinchilik uchun zarur resurslarni yetkazib beruvchi brenddir. Bizning asosiy faoliyatimiz issiqxona plyonkasi ishlab chiqarish va issiqxonaning to'liq ishlashi uchun zarur bo'lgan barcha narsalarni taqdim etishdan iborat.",
+    "introP2": "Biz issiqxona qurilishidan tortib, zarur jihozlargacha bo'lgan barcha narsalarni qamrab oluvchi kompleks yechimlarni taklif qilamiz.",
+    "experienceTitle": "Bizning tajribamiz",
+    "experienceText": "Ko'p yillik tajribasi 2004 yildan boshlab o'z faoliyatini boshlagan. 2016 yildan buyon Koreya, Rossiya, Eron va Xitoy bilan hamkorlikda ishlayapmiz.",
+    "productsTitle": "Bizning mahsulotlarimiz",
+    "product1": "Polietilen plyonka",
+    "product2": "Zajim-klipsa",
+    "product3": "Fitinglar",
+    "product4": "Soya setkalari",
+    "product5": "PET va PP lentalar",
+    "product6": "Kasseta, polietilen stakanlar",
+    "product7": "Radiator",
+    "product8": "Ventilyator va gofra",
+    "product9": "Agrovolokno va ko'rpa",
+    "product10": "Tomchilab sug'orish",
+    "product11": "Ozuqa va urug'lar",
+    "product12": "Agrotexnika",
+    "promiseTitle": "Bizning va'damiz",
+    "promiseCardTitle": "Xavfsizlik va Hayot",
+    "promiseCardText": "Bizning asosiy brendimiz va'dasi - xavfsizlik va hayot. Bu majburiyat bizning barcha faoliyatimizga yo'l-yo'riq beradi va har bir mahsulotimizda aks etadi.",
+    "philosophyTitle": "Bizning falsafamiz",
+    "philosophyIntro": "Bizning falsafamiz muvaffaqiyatli ekinchilik uchun zarur bo'lgan ikki asosiy tushunchaga asoslanadi:",
+    "protectionTitle": "Himoya va Xavfsizlik",
+    "protectionText": "Biz ishonchli tuzilmalarni ta'minlaymiz. Biz qo'llab-quvvatlaydigan issiqxona shakli himoya va xavfsizlikni anglatadi. Har bir mahsulotimiz sizning ekinlaringiz va investitsiyangizni himoya qilish uchun mo'ljallangan.",
+    "protectionFeature1": "Mustahkam va bardoshli materiallar",
+    "protectionFeature2": "Ob-havo sharoitlariga chidamlilik",
+    "protectionFeature3": "Uzoq muddatli himoya kafolati",
+    "productivityTitle": "Mahsuldorlik va Hayotiylik",
+    "productivityText": "Biz o'sish va hosilni rag'batlantiramiz. Barg bizning mahsuldorlik va hayotiylik ramzimizdir. Har bir yechimimiz maksimal hosil va sifatli mahsulot yetishtirish uchun yaratilgan.",
+    "productivityFeature1": "Optimal o'sish sharoitlari",
+    "productivityFeature2": "Yuqori sifatli hosil kafolati",
+    "productivityFeature3": "Samarali resurslardan foydalanish",
+    "balanceNote": "Bu tamoyillar bizning brend va'damizni vizual ravishda ifodalash uchun ehtiyotkorlik bilan muvozanatlashtirilgan.",
+    "characterTitle": "Bizning xarakterimiz",
+    "characterDescription": "Agross brendining asosiy xarakteri <strong>mehribon va yaratuvchan</strong> deb ta'riflanadi. Biz issiqxona sanoati ehtiyojlari va yo'nalishiga moslashtirilgan zamonaviy va minimalistik yechimlarni taqdim etishga intilamiz.",
+    "traitKind": "Mehribon",
+    "traitCreative": "Yaratuvchan",
+    "traitModern": "Zamonaviy",
+    "audienceTitle": "Bizning mijozlarimiz",
+    "audienceIntro": "Agross keng bozor segmentiga xizmat ko'rsatadi, jumladan past, o'rta va yuqori-o'rta darajadagi mijozlar. Bizning qadrli mijozlarimiz orasida:",
+    "audienceEntrepreneursTitle": "Tadbirkorlar",
+    "audienceEntrepreneursText": "Yangi biznes boshlaydigan va o'z faoliyatini kengaytiradigan tadbirkorlar uchun to'liq yechimlar.",
+    "audienceFarmersTitle": "Dehqonlar",
+    "audienceFarmersText": "O'z yer uchastkalarida issiqxona qurishni istagan dehqonlar uchun qulay va sifatli mahsulotlar.",
+    "audienceLargeScaleTitle": "Fermerlar",
+    "audienceLargeScaleText": "Katta hajmdagi yetishtiruv bilan shug'ullanuvchi fermerlar uchun professional darajadagi yechimlar.",
+    "ctaTitle": "Bizning mahsulotlarimiz bilan tanishing",
+    "ctaText": "Issiqxonangiz uchun zarur bo'lgan barcha mahsulotlar va xizmatlarni kashf eting",
+    "ctaCatalog": "Katalogni ko'rish",
+    "ctaHome": "Bosh sahifaga qaytish"
+  },
+  "allCategories": {
+    "breadcrumb": "Barcha kategoriyalar",
+    "title": "Barcha kategoriyalar",
+    "subtitle": "Mahsulotlarni ko'rish uchun kategoriyani tanlang",
+    "statCategories": "Kategoriyalar",
+    "statProducts": "Mahsulotlar",
+    "noDescription": "Ushbu toifa uchun tavsif mavjud emas.",
+    "allCatName": "Barcha kategoriyalar",
+    "allCatDescription": "Barcha mavjud mahsulotlarning to'liq katalogi",
+    "view": "Ko'rish"
+  },
+  "catalog": {
+    "title": "Katalog",
+    "allCategories": "Barcha kategoriyalar"
+  },
+  "categories": {
+    "allProducts": "Barcha mahsulotlar",
+    "resetFilters": "Filtrlarni tozalash",
+    "categories": "Kategoriyalar",
+    "subcategories": "Subkategoriyalar",
+    "all": "Barchasi",
+    "country": "Ishlab chiqarilgan mamlakat",
+    "allCountries": "Barcha mamlakatlar",
+    "searchResults": "Qidiruv natijalari: \"{{query}}\"",
+    "resultsFound": "{{count}} ta mahsulot topildi",
+    "resultsFound_plural": "{{count}} ta mahsulot topildi",
+    "noResults": " - so'rovni o'zgartirib ko'ring",
+    "filters": "Filtr",
+    "sort": "Saralash:",
+    "sortPopular": "Ommabopligi bo'yicha",
+    "sortPriceLow": "Avval arzonlari",
+    "sortPriceHigh": "Avval qimmatlari",
+    "sortRating": "Reyting bo'yicha",
+    "apply": "Qo'llash",
+    "error": "Ma'lumotlarni yuklashda xatolik yuz berdi"
+  },
+  "notFound": {
+    "title": "Sahifa topilmadi",
+    "message": "Afsuski, siz qidirayotgan sahifa mavjud emas yoki ko'chirilgan.<br/>Bu yerda hech narsa o'smadi... lekin bizning mahsulotlarimiz o'sadi!",
+    "goHome": "Bosh sahifaga qaytish",
+    "viewCatalog": "Katalogni ko'rish"
+  },
+  "popularProducts": {
+    "title": "Ommabop mahsulotlar"
+  },
+  "productDetail": {
+    "available": "Mavjud",
+    "notAvailable": "Mavjud emas",
+    "about": "Mahsulot haqida",
+    "features": "Xususiyatlari",
+    "category": "Kategoriya",
+    "subcategory": "Subkategoriya",
+    "country": "Davlat",
+    "type": "Turi",
+    "structure": "Tuzilma",
+    "unit": "Birlik",
+    "price": "Narxi",
+    "related": "O'xshash mahsulotlar"
+  },
+  "whyUs": {
+    "title": "Nima uchun AGROSS?",
+    "features": [
+      {
+        "title": "Xavfsizlik va hayot",
+        "description": "Mahsulotlarimiz issiqxonalaringiz himoyasi va mahsuldorligini ta'minlaydi"
+      },
+      {
+        "title": "To'liq to'plam",
+        "description": "Qurilishdan uskunalargacha — issiqxonangiz uchun hamma narsa"
+      },
+      {
+        "title": "Tez yetkazib berish",
+        "description": "Butun O'zbekiston bo'ylab tezkor yetkazib berish"
+      },
+      {
+        "title": "Sifat kafolati",
+        "description": "Barcha materiallar xalqaro standartlarga mos keladi"
+      }
+    ]
+  },
+  "floatingContact": {
+    "telegram": "Telegram",
+    "whatsapp": "WhatsApp",
+    "phone": "+998 71 502 63 63",
+    "ariaLabel": "Contact Us"
+  },
+  "languageSwitcher": {
+    "title": "Select Language"
+  },
+  "altTexts": {
+    "carouselSlide": "Carousel slide {{index}}",
+    "productImage": "Image of {{productName}}",
+    "productPlaceholder": "Product placeholder"
+  }
+}
