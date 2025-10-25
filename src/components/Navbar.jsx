@@ -15,7 +15,7 @@ const Navbar = () => {
 
   // Extract category ID from current URL
   const getCurrentCategoryId = () => {
-    const match = location.pathname.match(/^\/category\/([^\/?#]+)/);
+    const match = location.pathname.match(/^\/category\/([^/?#]+)/);
     return match ? match[1] : "0";
   };
 
