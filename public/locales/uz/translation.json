@@ -191,5 +191,10 @@
     "carouselSlide": "Carousel slide {{index}}",
     "productImage": "Image of {{productName}}",
     "productPlaceholder": "Product placeholder"
+  },
+  "loading": {
+    "subtitle": "Issiqxonangiz uchun sifatli mahsulotlar",
+    "loadingText": "Yuklanmoqda...",
+    "ready": "Tayyor!"
   }
 }

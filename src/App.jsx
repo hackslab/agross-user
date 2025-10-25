@@ -15,43 +15,49 @@ import ProductDetail from "./components/ProductDetail";
 import About from "./components/About";
 import ScrollToTop from "./components/ScrollToTop";
 import FloatingContact from "./components/FloatingContact";
+import LoadingScreen from "./components/LoadingScreen";
+import { useAppInitialLoad } from "./hooks/useAppInitialLoad";
 
 function App() {
   const isAuthPage = false; // Auth removed
+  const { isLoading, progress } = useAppInitialLoad();
 
   return (
-    <div className="app">
-      <ScrollToTop />
-      {!isAuthPage && <Navbar />}
-      <main className="main-content">
-        <Routes>
-          <Route
-            path="/"
-            element={
-              <>
-                <Hero />
-                <Catalog />
-                <WhyUs />
-                <PopularProducts />
-              </>
-            }
-          />
-          <Route path="/categories" element={<AllCategories />} />
-          <Route
-            path="/category"
-            element={<Navigate to="/categories" replace />}
-          />
-          <Route path="/category/:id" element={<Categories />} />
-          <Route path="/product/:id" element={<ProductDetail />} />
-          {/* Auth, Cart, and Favourites routes removed */}
-          <Route path="/about" element={<About />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </main>
-      <Toaster richColors position="top-right" />
-      {!isAuthPage && <Footer />}
-      <FloatingContact />
-    </div>
+    <>
+      <LoadingScreen isLoading={isLoading} progress={progress} />
+      <div className="app">
+        <ScrollToTop />
+        {!isAuthPage && <Navbar />}
+        <main className="main-content">
+          <Routes>
+            <Route
+              path="/"
+              element={
+                <>
+                  <Hero />
+                  <Catalog />
+                  <WhyUs />
+                  <PopularProducts />
+                </>
+              }
+            />
+            <Route path="/categories" element={<AllCategories />} />
+            <Route
+              path="/category"
+              element={<Navigate to="/categories" replace />}
+            />
+            <Route path="/category/:id" element={<Categories />} />
+            <Route path="/product/:id" element={<ProductDetail />} />
+            {/* Auth, Cart, and Favourites routes removed */}
+            <Route path="/about" element={<About />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </main>
+        <Toaster richColors position="top-right" />
+        {!isAuthPage && <Footer />}
+        <FloatingContact />
+      </div>
+    </>
   );
 }
 

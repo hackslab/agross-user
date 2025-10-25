@@ -193,5 +193,10 @@
     "carouselSlide": "Carousel slide {{index}}",
     "productImage": "Image of {{productName}}",
     "productPlaceholder": "Product placeholder"
+  },
+  "loading": {
+    "subtitle": "Жылыжайыңыз үшін сапалы өнімдер",
+    "loadingText": "Жүктелуде...",
+    "ready": "Дайын!"
   }
 }

@@ -1,0 +1,229 @@
+.loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+  transition: opacity 0.6s ease;
+  overflow: hidden;
+}
+
+.loading-screen.fade-out {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.loading-content {
+  position: relative;
+  text-align: center;
+  padding: 2rem;
+  animation: fadeIn 0.6s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Logo */
+.logo-container {
+  margin-bottom: 2rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-wrapper {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.loading-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  opacity: 0.95;
+}
+
+.logo-glow {
+  display: none;
+}
+
+/* Brand Text */
+.brand-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2e7d32;
+  margin: 0 0 0.5rem 0;
+  letter-spacing: 0.5px;
+}
+
+.brand-subtitle {
+  font-size: 1rem;
+  color: #757575;
+  margin: 0 0 3rem 0;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+}
+
+/* Minimal Spinner */
+.loading-animation {
+  margin-bottom: 2.5rem;
+}
+
+.spinner-container {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  margin: 0 auto;
+}
+
+.spinner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #e0e0e0;
+  border-top-color: #4caf50;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+.spinner-ring {
+  display: none;
+}
+
+.spinner-container::after {
+  display: none;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Progress Bar */
+.progress-container {
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 3px;
+  background: #e0e0e0;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.progress-fill {
+  height: 100%;
+  background: #4caf50;
+  border-radius: 20px;
+  transition: width 0.4s ease;
+}
+
+.progress-fill::after {
+  display: none;
+}
+
+.progress-text {
+  font-size: 0.75rem;
+  color: #9e9e9e;
+  margin: 0;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+/* Remove decorative elements */
+.decorative-circles {
+  display: none;
+}
+
+.circle {
+  display: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .loading-content {
+    padding: 1.5rem;
+  }
+
+  .logo-wrapper {
+    width: 80px;
+    height: 80px;
+  }
+
+  .brand-title {
+    font-size: 2rem;
+  }
+
+  .brand-subtitle {
+    font-size: 0.9rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .spinner-container {
+    width: 40px;
+    height: 40px;
+  }
+
+  .progress-container {
+    max-width: 280px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-wrapper {
+    width: 70px;
+    height: 70px;
+  }
+
+  .brand-title {
+    font-size: 1.75rem;
+  }
+
+  .brand-subtitle {
+    font-size: 0.85rem;
+  }
+
+  .spinner-container {
+    width: 36px;
+    height: 36px;
+  }
+
+  .progress-bar {
+    height: 2.5px;
+  }
+
+  .progress-text {
+    font-size: 0.7rem;
+  }
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  .loading-screen,
+  .loading-content,
+  .spinner {
+    animation: none !important;
+    transition: none !important;
+  }
+
+  .loading-screen.fade-out {
+    display: none;
+  }
+}

@@ -192,5 +192,10 @@
     "carouselSlide": "Carousel slide {{index}}",
     "productImage": "Image of {{productName}}",
     "productPlaceholder": "Product placeholder"
+  },
+  "loading": {
+    "subtitle": "Quality products for your greenhouse",
+    "loadingText": "Loading...",
+    "ready": "Ready!"
   }
 }
