@@ -1,0 +1,27 @@
+name: Deploy to Server
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Deploy to Server via SSH
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.SERVER_IP }}
+          username: root
+          password: ${{ secrets.SERVER_PASSWORD }}
+          script: |
+            cd agross/agross-user/
+            git fetch origin
+            git reset --hard origin/main
+            git pull origin main --force
+            npm i
+            npm run build
+            rm -rf /var/www/agross.uz/dist/*
+            cp -r dist/* /var/www/agross.uz/dist/
