@@ -5,7 +5,6 @@
   "productCount": "{{count}} өнім",
   "productCount_plural": "{{count}} өнім",
   "home": "Басты бет",
-  "catalog": "Каталог",
   "navbar": {
     "allProducts": "Барлық өнімдер",
     "about": "Компания туралы",

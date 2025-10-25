@@ -5,7 +5,6 @@
   "productCount": "{{count}} product",
   "productCount_plural": "{{count}} products",
   "home": "Home",
-  "catalog": "Catalog",
   "navbar": {
     "allProducts": "All Products",
     "about": "About Company",

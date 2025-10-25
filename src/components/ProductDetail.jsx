@@ -89,7 +89,7 @@ const ProductDetail = () => {
               navigate("/categories");
             }}
           >
-            {t("catalog")}
+            {t("catalog.title")}
           </a>
           <span className="separator">/</span>
           {product.category && (

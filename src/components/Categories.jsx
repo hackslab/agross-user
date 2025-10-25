@@ -201,7 +201,7 @@ const Categories = () => {
               navigate("/categories");
             }}
           >
-            {t("catalog")}
+            {t("catalog.title")}
           </a>
           {selectedCategory !== "0" && (
             <>
@@ -337,7 +337,7 @@ const Categories = () => {
                         ? t("categories.searchResults", { query: searchQuery })
                         : categories.find(
                             (c) => String(c.id) === String(selectedCategory)
-                          )?.name || t("catalog")}
+                          )?.name || t("catalog.title")}
                     </h1>
                     <p className="results-count">
                       {t("categories.resultsFound", {

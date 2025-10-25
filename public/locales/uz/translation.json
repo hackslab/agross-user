@@ -5,7 +5,6 @@
   "productCount": "{{count}} ta mahsulot",
   "productCount_plural": "{{count}} ta mahsulot",
   "home": "Bosh sahifa",
-  "catalog": "Katalog",
   "navbar": {
     "allProducts": "Barcha mahsulotlar",
     "about": "Kompaniya haqida",

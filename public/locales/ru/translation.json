@@ -6,7 +6,6 @@
   "productCount_plural": "{{count}} товаров",
   "productCount_plural_2": "{{count}} товара",
   "home": "Главная",
-  "catalog": "Каталог",
   "navbar": {
     "allProducts": "Все товары",
     "about": "О компании",
