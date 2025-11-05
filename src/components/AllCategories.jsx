@@ -44,7 +44,7 @@ const AllCategories = () => {
         count: total,
         description: t("allCategories.allCatDescription"),
         image:
-          "https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=500&h=400&fit=crop",
+          "/plant.jpg",
       },
       ...mapped,
     ];

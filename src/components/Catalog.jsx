@@ -40,8 +40,7 @@ const Catalog = () => {
       id: 0,
       name: t("catalog.allCategories"),
       count: total,
-      image:
-        "https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=500&h=400&fit=crop",
+      image: "/plant.jpg",
     };
     return [allItem, ...mapped.slice(0, 5)];
   }, [categoriesData, productsData, t]);
