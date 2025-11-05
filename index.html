@@ -17,7 +17,7 @@
     />
     <meta
       name="keywords"
-      content="greenhouse film, greenhouse equipment, agriculture Uzbekistan, farming equipment, polyethylene film, drip irrigation, shade nets, agro fabric, greenhouse construction, Agross"
+      content="greenhouse film, greenhouse equipment, agriculture Uzbekistan, farming equipment, polyethylene film, drip irrigation, shade nets, agro fabric, greenhouse construction, Agross, issiqxona plyonkasi, issiqxona jihozlari, tomchilab sug'orish, тепличная пленка, тепличное оборудование, капельный полив, жылыжай пленкасы, жылыжай жабдықтары, Агросс, qishloq xo'jaligi, ауыл шаруашылығы, сельское хозяйство, агроволокно, agrovolokno, сетка затеняющая"
     />
     <meta name="author" content="Agross" />
     <meta name="robots" content="index, follow" />
@@ -64,6 +64,13 @@
 
     <!-- Canonical URL -->
     <link rel="canonical" href="https://agross.uz/" />
+
+    <!-- Multi-language Support - Alternate Links -->
+    <link rel="alternate" hreflang="uz" href="https://agross.uz/" />
+    <link rel="alternate" hreflang="ru" href="https://agross.uz/" />
+    <link rel="alternate" hreflang="en" href="https://agross.uz/" />
+    <link rel="alternate" hreflang="kk" href="https://agross.uz/" />
+    <link rel="alternate" hreflang="x-default" href="https://agross.uz/" />
     <style>
       /* Minimalist loading */
       body {
@@ -95,27 +102,28 @@
       }
     </style>
 
-    <!-- Structured Data (Schema.org JSON-LD) -->
+    <!-- Structured Data (Schema.org JSON-LD) - Multi-language Support -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "Organization",
         "name": "Agross",
-        "alternateName": "Agross Uzbekistan",
+        "alternateName": ["Agross Uzbekistan", "Агросс", "Агросс Узбекистан"],
         "url": "https://agross.uz",
         "logo": "https://agross.uz/logo.png",
-        "description": "Essential greenhouse film and equipment supplier in Uzbekistan. Complete solutions from greenhouse construction to equipment.",
+        "description": "Essential greenhouse film and equipment supplier in Uzbekistan. Complete solutions from greenhouse construction to equipment for entrepreneurs, farmers, and large-scale agriculturists. | O'zbekistonda issiqxona plyonkasi va jihozlarining yetkazib beruvchisi | Поставщик тепличной пленки и оборудования в Узбекистане | Өзбекстандағы жылыжай пленкасы мен жабдықтарының жеткізушісі",
         "foundingDate": "2004",
         "slogan": "From greenhouse construction to equipment—everything is with us!",
         "brand": {
           "@type": "Brand",
           "name": "Agross",
-          "slogan": "Safety and Life"
+          "slogan": "Safety and Life | Xavfsizlik va Hayot | Безопасность и Жизнь | Қауіпсіздік және Өмір"
         },
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "N.Xojiboev 1A, Eshonguzar",
           "addressLocality": "Tashkent",
+          "addressRegion": "Tashkent",
           "addressCountry": "UZ"
         },
         "contactPoint": [
@@ -124,27 +132,49 @@
             "telephone": "+998-71-502-63-63",
             "contactType": "customer service",
             "areaServed": "UZ",
-            "availableLanguage": ["Uzbek", "Russian", "English"]
+            "availableLanguage": ["Uzbek", "Russian", "English", "Kazakh"]
           },
           {
             "@type": "ContactPoint",
             "telephone": "+998-33-302-63-63",
             "contactType": "sales",
+            "name": "Showroom",
+            "areaServed": "UZ",
+            "availableLanguage": ["Uzbek", "Russian"]
+          },
+          {
+            "@type": "ContactPoint",
+            "telephone": "+998-97-200-63-63",
+            "contactType": "sales",
+            "name": "Warehouse",
             "areaServed": "UZ",
             "availableLanguage": ["Uzbek", "Russian"]
           }
         ],
-        "sameAs": ["https://t.me/agross_uz"],
+        "sameAs": ["https://t.me/agross_uz", "https://t.me/PalmaPlast_777"],
         "areaServed": {
           "@type": "Country",
           "name": "Uzbekistan"
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "09:00",
+          "closes": "18:00"
         },
         "makesOffer": [
           {
             "@type": "Offer",
             "itemOffered": {
               "@type": "Product",
-              "name": "Greenhouse Film",
+              "name": "Greenhouse Polyethylene Film | Issiqxona polietilen plyonkasi | Тепличная полиэтиленовая пленка | Жылыжай полиэтилен пленкасы",
               "description": "High-quality polyethylene film for greenhouse construction"
             }
           },
@@ -152,8 +182,23 @@
             "@type": "Offer",
             "itemOffered": {
               "@type": "Product",
-              "name": "Greenhouse Equipment",
-              "description": "Complete equipment for greenhouse operations including drip irrigation, shade nets, and ventilation systems"
+              "name": "Greenhouse Equipment | Issiqxona jihozlari | Тепличное оборудование | Жылыжай жабдықтары",
+              "description": "Complete equipment for greenhouse operations including drip irrigation, shade nets, ventilation systems, clips, fittings, and agricultural tools"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Drip Irrigation Systems | Tomchilab sug'orish | Капельный полив | Тамшылатып суару",
+              "description": "Advanced drip irrigation systems for efficient water management"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Shade Nets & Agro Fabric | Soya setkalari va Agrovolokno | Затеняющие сетки и Агроволокно | Көлеңкелік торлар"
             }
           }
         ],
@@ -162,8 +207,15 @@
           "Agricultural Equipment",
           "Polyethylene Film Manufacturing",
           "Drip Irrigation Systems",
-          "Agro Fabric"
-        ]
+          "Agro Fabric",
+          "Greenhouse Ventilation",
+          "Agricultural Technology",
+          "Farming Equipment Uzbekistan"
+        ],
+        "geo": {
+          "@type": "GeoCoordinates",
+          "addressCountry": "UZ"
+        }
       }
     </script>
   </head>

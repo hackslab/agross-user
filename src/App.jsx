@@ -16,6 +16,7 @@ import About from "./components/About";
 import ScrollToTop from "./components/ScrollToTop";
 import FloatingContact from "./components/FloatingContact";
 import LoadingScreen from "./components/LoadingScreen";
+import SEOHelmet from "./components/SEOHelmet";
 import { useAppInitialLoad } from "./hooks/useAppInitialLoad";
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
   return (
     <>
       <LoadingScreen isLoading={isLoading} progress={progress} />
+      <SEOHelmet />
       <div className="app">
         <ScrollToTop />
         {!isAuthPage && <Navbar />}
